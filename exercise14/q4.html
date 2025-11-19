@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Css Position</title>
+  <style>
+    body{
+      height: 3000px;
+    }
+    .bottom-right{
+      position: fixed;
+      background-color: green;
+      color: white;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      width: 130px;
+      
+    }
+    .overlay{
+      background-color: rgba(0,0,0,0.5);
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal{
+      background-color: white;
+      width: 300px;
+      padding:20px;
+      border-radius: 6px;
+    }
+    div{
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .modal-title{
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 20px;
+
+    }
+    .modal-content{
+      margin-bottom: 10px;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="bottom-right"> right sidebar  </div>
+    <div class="overlay">
+      <div class="modal">
+        <div class="modal-title">
+        Modal Title
+        </div>
+        <div class="modal-content">
+          This is a modal
+        </div>
+        <button>
+          Close
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>flexbox</title>
+ </head>
+ <style>
+  .main{
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+  }
+   .flex1{
+   display: flex;
+   margin-bottom: 10px;
+   width: 200px;
+   justify-content: space-between;
+
+   }
+   .notification{
+   
+   background-color: blue;
+   padding-top: 2px;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 2px;
+   color: white;
+   font-size: 10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   }
+
+   .name{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+   }
+   </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="flex1">
+      <div class="name">Home</div>
+      <div class="notification">14</div>
+      </div>
+      <div class="flex1">
+      <div class="name">Notification</div>
+      <div class="notification">3</div>
+      </div>
+      <div class="flex1">
+      <div class="name">Messages</div>
+      <div class="notification">5</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>flexbox nested</title>
+  </head>
+  <style>
+    .container{
+    display: flex;
+    height: 50px;
+    }
+    .left-div{
+    background-color: lightcoral;
+    width: 100px;
+    }
+    .right-div{
+     background-color: lightgreen;
+     width: 200px;
+    }
+    .iner-div-2{
+     display: flex;
+     justify-content: space-between;
+    }
+    .item{
+      background-color: black;
+      color:white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="left-div">
+        
+      </div>
+      <div class="right-div">
+          <div class="iner-div">
+               row1
+              <div class="iner-div-2">
+                 <div class="item"> row1 </div> 
+                 <div class="item"> row2 </div>  
+              </div>
+          </div>
+      </div>
+      </div>
+  </body>
+</html>

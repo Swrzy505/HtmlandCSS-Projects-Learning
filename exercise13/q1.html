@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+    nested flexbox
+  </title>
+  <style>
+    .container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    
+    }
+   .col1{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+   .item1{
+    background-color: black;
+    color: white;
+   }
+   .col2{
+   background-color: lightgreen;
+   width: 200px;
+   }
+    
+  </style>
+  </head>
+  <body>
+<div class="container">
+  <div class="col1">
+    <div class="item1">
+      item1
+      
+    </div>
+        
+  </div>
+  <div class="col2">
+  
+  </div>
+</div>
+  </body>
+</html>
